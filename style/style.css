@@ -1,0 +1,21 @@
+@font-face {
+ font-family: 'Butler';
+ src: url(/fonts/Butler/Butler.woff);
+ font-weight: 400;
+}
+
+body {
+ font-family: Arial, sans-serif;
+ font-size: 16px;
+ line-height: 1.16;
+}
+
+.blockquote {
+ font-family: 'Roboto', Arial, sans-serif;
+ font-size: 2rem;
+}
+
+.title {
+ font-family: 'Butler', serif;
+ font-weight: 400;
+}
