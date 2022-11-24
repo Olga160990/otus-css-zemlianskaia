@@ -12,7 +12,7 @@
 }
 @font-face {
     font-family: 'Butler';
-    src: local('Butler'), url('Butler.woff2') format('woff2'), url('Butler.woff') format('woff'), url('Butler.ttf') format('truetype');
+    src: local('Butler Regular'), local('Butler-Regular') url('Butler Regular.woff2') format('woff2'), url('Butler Regular.woff') format('woff'), url('Butler Regular.ttf') format('truetype');
     font-weight: 400;
     font-style: normal;
 }
