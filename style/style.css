@@ -41,11 +41,71 @@
 :root {
  font-size: 16px;
  line-height: 1.2;
+ margin: 0 auto;
+ --light: #ffffff;
+}
+
+.page-container {
+ max-width: 2400px;
+ margin: 0 auto;
 }
 
 body {
+ background-color: var(--light);
  font-family: 'Roboto', Arial, Helvetica, sans-serif;
  font-size: 1rem;
+}
+
+.hamburger {
+ position: fixed;
+ top: 55px;
+ left: 50%;
+ transform: translateX(-50%);
+ text-align: center;
+ background: none;
+ border: none;
+}
+
+.temp-hide {
+ display: none;
+}
+
+.studio {
+ position: relative;
+ width: 80%;
+ height: 630px;
+ margin: 0 auto;
+ /* background-size: 300px 100px; */
+ background-image: url('../img/Mod_Studio.jpg');
+ /* background-color: rgba(194, 194, 149, 0.836); */
+ background-repeat: no-repeat;
+ background-position: center;
+ background-size: auto;
+ margin-top: 135px;
+}
+
+.studio-text {
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+ background-color: white;
+ border: 0.1rem solid black;
+ box-sizing: border-box;
+ margin: 0 auto;
+ padding: 75px 69px 75px 70px;
+}
+
+h1 {
+ font-family: 'Butler', 'Times New Roman', Times, serif;
+ font-size: 5.43rem;
+ font-weight: 400;
+ text-align: center;
+}
+
+h2 {
+ font-size: 1.125rem;
+ text-align: center;
 }
 
 .blockquote {
