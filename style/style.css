@@ -41,17 +41,15 @@
 :root {
  font-size: 16px;
  line-height: 1.2;
- margin: 0 auto;
- --light: #ffffff;
 }
 
 .page-container {
- max-width: 2400px;
+ max-width: 150rem;
  margin: 0 auto;
 }
 
 body {
- background-color: var(--light);
+ background-color: white;
  font-family: 'Roboto', Arial, Helvetica, sans-serif;
  font-size: 1rem;
 }
@@ -66,7 +64,7 @@ body {
  border: none;
 }
 
-.temp-hide {
+.invisible {
  display: none;
 }
 
