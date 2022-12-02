@@ -45,7 +45,10 @@
 
 .page-container {
  max-width: 90rem;
+ max-height: 56.25rem;
  margin: 0 auto;
+ box-sizing: border-box;
+ /* background-color: green; */
 }
 
 body {
@@ -61,35 +64,30 @@ body {
 .studio {
  position: relative;
  width: 80%;
- height: 630px;
- margin: 0 auto;
+ /* height: 52%; */
  margin-top: 8.4375rem;
+ /* background-color: blue; */
 }
 
 .studio-text {
  position: absolute;
+ text-align: center;
  top: 50%;
  left: 50%;
  transform: translate(-50%, -50%);
  background-color: white;
- box-sizing: border-box;
- padding-top: 8.125rem;
- padding-right: 4.3125rem;
- padding-bottom: 8.125rem;
- padding-left: 4.3125rem;
+ padding: 8.125rem 4.3125rem 8.125rem 4.3125rem;
 }
 
 h1 {
  font-family: 'Butler', 'Times New Roman', Times, serif;
  font-size: 5rem;
  font-weight: 400;
- text-align: center;
  line-height: 6.5rem;
 }
 
 h2 {
  font-size: 1.125rem;
- text-align: center;
  font-weight: 700;
  line-height: 1.3125rem;
 }
