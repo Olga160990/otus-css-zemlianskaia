@@ -45,10 +45,12 @@
 
 .page-container {
  max-width: 90rem;
- max-height: 56.25rem;
  margin: 0 auto;
- box-sizing: border-box;
  /* background-color: green; */
+}
+
+.invisible {
+ display: none;
 }
 
 body {
@@ -57,16 +59,21 @@ body {
  font-size: 1rem;
 }
 
-.invisible {
- display: none;
-}
-
 .studio {
  position: relative;
- width: 80%;
- /* height: 52%; */
- margin-top: 8.4375rem;
  /* background-color: blue; */
+ /* padding-top: 8.4375rem; */
+ height: 100vh;
+ min-height: 39.375rem;
+ max-height: 75rem;
+}
+
+.mod {
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+ /* background: gold; */
 }
 
 .studio-text {
@@ -76,20 +83,24 @@ body {
  left: 50%;
  transform: translate(-50%, -50%);
  background-color: white;
- padding: 8.125rem 4.3125rem 8.125rem 4.3125rem;
+ padding: 8.125rem 4.3125rem;
+ z-index: 10;
 }
 
 h1 {
  font-family: 'Butler', 'Times New Roman', Times, serif;
  font-size: 5rem;
  font-weight: 400;
- line-height: 6.5rem;
+ /* line-height: 6.5rem; */
+ margin-bottom: 0.225em;
 }
 
 h2 {
  font-size: 1.125rem;
  font-weight: 700;
- line-height: 1.3125rem;
+ /* line-height: 1.3125rem; */
+ /* margin-top: 1.35em; */
+ margin-bottom: -1.35em;
 }
 
 .blockquote {
