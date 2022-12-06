@@ -68,8 +68,12 @@ body {
  max-height: 75rem;
 }
 
-.mod {
+img {
  position: absolute;
+ width: 100vw;
+ /* height: 100vh; */
+ min-height: 39.375rem;
+ max-width: 66.5625rem;
  top: 50%;
  left: 50%;
  transform: translate(-50%, -50%);
@@ -81,6 +85,7 @@ body {
  text-align: center;
  top: 50%;
  left: 50%;
+ min-height: 22.1875rem;
  transform: translate(-50%, -50%);
  background-color: white;
  padding: 8.125rem 4.3125rem;
@@ -92,7 +97,7 @@ h1 {
  font-size: 5rem;
  font-weight: 400;
  /* line-height: 6.5rem; */
- margin-bottom: 0.225em;
+ /* margin-bottom: 0.225em; */
 }
 
 h2 {
@@ -100,7 +105,7 @@ h2 {
  font-weight: 700;
  /* line-height: 1.3125rem; */
  /* margin-top: 1.35em; */
- margin-bottom: -1.35em;
+ margin-bottom: -1.2em;
 }
 
 .blockquote {
