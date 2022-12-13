@@ -63,21 +63,24 @@ body {
  position: relative;
  /* background-color: blue; */
  /* padding-top: 8.4375rem; */
- height: 100vh;
- min-height: 39.375rem;
+ min-height: 37.5rem;
  max-height: 75rem;
+ overflow: hidden;
 }
 
 img {
  position: absolute;
  width: 100vw;
  /* height: 100vh; */
- min-height: 39.375rem;
- max-width: 66.5625rem;
- top: 50%;
+ max-height: 75rem;
+ max-width: 66rem;
+ top: 50%; 
  left: 50%;
- transform: translate(-50%, -50%);
+ transform: translate(-50%, -50%); 
  /* background: gold; */
+ /* object-fit: cover;
+ object-position: center;
+ max-width: 100%; */
 }
 
 .studio-text {
@@ -89,6 +92,7 @@ img {
  transform: translate(-50%, -50%);
  background-color: white;
  padding: 8.125rem 4.3125rem;
+ padding-top: calc(50%+0.6rem);
  z-index: 10;
 }
 
@@ -98,14 +102,17 @@ h1 {
  font-weight: 400;
  /* line-height: 6.5rem; */
  /* margin-bottom: 0.225em; */
+ /* margin-bottom: -0.1em; */
 }
 
 h2 {
+ position: relative;
  font-size: 1.125rem;
  font-weight: 700;
  /* line-height: 1.3125rem; */
  /* margin-top: 1.35em; */
- margin-bottom: -1.2em;
+ top: 1em;
+ margin-bottom: -1.35em;
 }
 
 .blockquote {
