@@ -1,0 +1,63 @@
+{
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true
+}
+
+ "files.autoSave": "off",
+ "editor.fontSize": 18,
+ "editor.tabCompletion": "onlySnippets",
+"editor.fontLigatures": true,
+ "editor.renderWhitespace": "all",
+ "editor.fontFamily": "DeJaVu, Consolas, 'Courier New'",
+ "sublimeTextKeymap.promptV3Features": true,
+ "editor.tabSize": 2,
+ "editor.multiCursorModifier": "ctrlCmd",
+ "editor.snippetSuggestions": "top",
+ "workbench.colorTheme": "Boxy Ocean",
+ "workbench.iconTheme": "eq-material-theme-icons",
+ // Enable per-language
+ "[javascript]": {
+  "editor.formatOnSave": true
+ },
+ "[typescript]": {
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode"
+ },
+ "beautify.language": {
+  "js": {
+   "type": ["javascript", "json", "typescript"],
+   "filename": [".jshintrc", ".jsbeautify"]
+  },
+  "css": ["css", "scss"],
+  "html": ["htm", "html"]
+ },
+ "prettier.singleQuote": true,
+ "prettier.trailingComma": "es5",
+ "prettier.parser": "babylon",
+ "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+ "materialTheme.fixIconsRunning": false,
+ "emmet.useNewEmmet": true,
+ "emmet.showAbbreviationSuggestions": true,
+ "emmet.showExpandedAbbreviation": "always", // required to work with "emmet.includeLanguages"
+ "emmet.triggerExpansionOnTab": true,
+ "emmet.includeLanguages": {
+  "vue-html": "html"
+ },
+ "editor.suggestSelection": "first",
+ "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+ "[html]": {
+  "editor.defaultFormatter": "vscode.html-language-features"
+},
+ "workbench.statusBar.visible": true,
+ "editor.minimap.maxColumn": 99,
+ "editor.rulers": [],
+ "files.eol": "\n",
+ "html.format.wrapLineLength": 100,
+ "javascript.implicitProjectConfig.experimentalDecorators": true,
+ "editor.renderControlCharacters": false,
+ "prettier.tabWidth": 1,
+ "angular.experimental-ivy": true,
+ "bracketPairColorizer.depreciation-notice": false,
+"security.workspace.trust.untrustedFiles": "open",
+"editor.formatOnSave": true,
+"editor.formatOnPaste": true
