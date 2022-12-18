@@ -66,6 +66,7 @@ body {
   min-height: 37.5rem;
   max-height: 75rem;
   overflow: hidden;
+  height: 100vh;
 }
 
 img {
@@ -99,7 +100,7 @@ img {
 h1 {
   font-family: "Butler", "Times New Roman", Times, serif;
   font-size: 5rem;
-  font-weight: 400;
+  font-weight: 300;
   /* line-height: 6.5rem; */
   /* margin-bottom: 0.225em; */
   /* margin-bottom: -0.1em; */
@@ -110,19 +111,8 @@ h2 {
   font-size: 1.125rem;
   font-weight: 700;
   /* line-height: 1.3125rem; */
-  margin-bottom: -1.35em;
-  top: 1em;
+  margin-bottom: -1.2em;
+  top: 1.2em;
   /* margin-bottom: -1.2; */
 }
 
-.blockquote {
-  font-family: "Butler", "Times New Roman", Times, serif;
-  font-size: 2rem;
-  font-weight: 400;
-}
-
-.title {
-  font-family: "Butler", "Times New Roman", Times, serif;
-  font-size: 5.75rem;
-  font-weight: 300;
-}
