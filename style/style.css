@@ -1,61 +1,118 @@
 @font-face {
- font-family: 'Butler';
- src: local('Butler UltraLight'), local('Butler-UltraLight'),
-  url('/fonts/Butler/Butlerultralight.woff2') format('woff2'),
-  url('/fonts/Butler/Butlerultralight.woff') format('woff'),
-  url('/fonts/Butler/Butlerultralight.ttf') format('truetype');
- font-weight: 200;
- font-style: normal;
+  font-family: "Butler";
+  src: local("Butler UltraLight"), local("Butler-UltraLight"),
+    url("/fonts/Butler/Butlerultralight.woff2") format("woff2"),
+    url("/fonts/Butler/Butlerultralight.woff") format("woff"),
+    url("/fonts/Butler/Butlerultralight.ttf") format("truetype");
+  font-weight: 200;
+  font-style: normal;
 }
 
 @font-face {
- font-family: 'Butler';
- src: local('Butler Light'), local('Butler-Light'),
-  url('/fonts/Butler/Butlerlight.woff2') format('woff2'),
-  url('/fonts/Butler/Butlerlight.woff') format('woff'),
-  url('/fonts/Butler/Butlerlight.ttf') format('truetype');
- font-weight: 300;
- font-style: normal;
+  font-family: "Butler";
+  src: local("Butler Light"), local("Butler-Light"),
+    url("/fonts/Butler/Butlerlight.woff2") format("woff2"),
+    url("/fonts/Butler/Butlerlight.woff") format("woff"),
+    url("/fonts/Butler/Butlerlight.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
 }
 
 @font-face {
- font-family: 'Butler';
- src: local('Butler Regular'),
-  local('Butler-Regular') url('Butler Regular.woff2') format('woff2'),
-  url('Butler Regular.woff') format('woff'),
-  url('Butler Regular.ttf') format('truetype');
- font-weight: 400;
- font-style: normal;
+  font-family: "Butler";
+  src: local("Butler Regular"),
+    local("Butler-Regular") url("Butler Regular.woff2") format("woff2"),
+    url("Butler Regular.woff") format("woff"),
+    url("Butler Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
 }
 
 @font-face {
- font-family: 'Butler';
- src: local('Butler Medium'), local('Butler-Medium'),
-  url('/fonts/Butler/Butlermedium.woff2') format('woff2'),
-  url('/fonts/Butler/Butlermedium.woff') format('woff'),
-  url('/fonts/Butler/Butlermedium.ttf') format('truetype');
- font-weight: 500;
- font-style: normal;
+  font-family: "Butler";
+  src: local("Butler Medium"), local("Butler-Medium"),
+    url("/fonts/Butler/Butlermedium.woff2") format("woff2"),
+    url("/fonts/Butler/Butlermedium.woff") format("woff"),
+    url("/fonts/Butler/Butlermedium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
 }
 
 :root {
- font-size: 16px;
- line-height: 1.2;
+  font-size: 16px;
+  line-height: 1.2;
+}
+
+.page-container {
+  max-width: 90rem;
+  margin: 0 auto;
+  /* background-color: green; */
+}
+
+.invisible {
+  display: none;
 }
 
 body {
- font-family: 'Roboto', Arial, Helvetica, sans-serif;
- font-size: 1rem;
+  background-color: white;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-size: 1rem;
 }
 
-.blockquote {
- font-family: 'Butler', 'Times New Roman', Times, serif;
- font-size: 2rem;
- font-weight: 400;
+.studio {
+  position: relative;
+  /* background-color: blue; */
+  /* padding-top: 8.4375rem; */
+  min-height: 37.5rem;
+  max-height: 75rem;
+  overflow: hidden;
+  height: 100vh;
 }
 
-.title {
- font-family: 'Butler', 'Times New Roman', Times, serif;
- font-size: 5.75rem;
- font-weight: 300;
+img {
+  position: absolute;
+  width: 100vw;
+  /* height: 100vh; */
+  max-height: 75rem;
+  max-width: 66rem;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* background: gold; */
+  /* object-fit: cover;
+ object-position: center;
+ max-width: 100%; */
 }
+
+.studio-text {
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  min-height: 22.1875rem;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 8.125rem 4.3125rem;
+  padding-top: calc(50%+0.6rem);
+  z-index: 10;
+}
+
+h1 {
+  font-family: "Butler", "Times New Roman", Times, serif;
+  font-size: 5rem;
+  font-weight: 300;
+  /* line-height: 6.5rem; */
+  /* margin-bottom: 0.225em; */
+  /* margin-bottom: -0.1em; */
+}
+
+h2 {
+  position: relative;
+  font-size: 1.125rem;
+  font-weight: 700;
+  /* line-height: 1.3125rem; */
+  margin-bottom: -1.2em;
+  top: 1.2em;
+  /* margin-bottom: -1.2; */
+}
+
